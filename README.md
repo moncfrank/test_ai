@@ -6,76 +6,85 @@ Copy the template, paste it to your GitHub README and edit! -->
 
 ## Summary
 
-GreenGuide AI är en personlig assistent som hjälper privatpersoner och företag att minska sitt koldioxidavtryck genom att analysera deras konsumtionsmönster och ge konkreta, skräddarsydda tips i vardagen.
+GreenGuide AI is a personal assistant that helps individuals and businesses reduce their carbon footprint by analyzing their consumption patterns and providing concrete, customized tips for daily life.
 
 ## Background
 
 Problem:
-Många vill minska sin miljöpåverkan men vet inte exakt hur. Information finns, men den är ofta allmän och svår att omsätta till konkreta handlingar i vardagen.
-Hur vanligt:
-Detta är ett globalt och växande problem. Intresset för hållbarhet ökar varje år, men gapet mellan vilja och handling är fortfarande stort.
-Personlig motivation:
-Jag bryr mig mycket om klimatfrågor, men jag vet av egen erfarenhet hur svårt det är att veta exakt vad som gör skillnad. Jag vill göra det lättare att handla rätt.
-Varför viktigt:
-Om fler människor kan få enkla, anpassade råd, kan vi minska utsläppen på bred front. Små förändringar i många människors beteenden har stor effekt.
+Many people want to reduce their environmental impact but don't know exactly how. Information is available, but it is often general and difficult to translate into concrete actions.
+
+How common:
+This is a global and growing problem. Interest in sustainability is increasing every year, but the gap between intention and action remains significant.
+
+Personal motivation:
+I care deeply about climate issues, but from personal experience, I know how difficult it can be to figure out what actually makes a difference. I want to make it easier for people to act correctly.
+
+Why it matters:
+If more people can get simple, personalized advice, we can reduce emissions on a broad scale. Small changes in many people’s behavior can have a huge impact.
 
 
 
 
 ## How is it used?
 
-Användare:
-Privatpersoner som vill leva mer hållbart, småföretag som vill profilera sig som miljövänliga.
+Users:
+Individuals who want to live more sustainably, and small businesses that want to brand themselves as environmentally friendly.
 
-Användningssituation:
-App i mobilen eller en webbtjänst.
-Användaren får en veckorapport och dagliga små förslag, t.ex.:
-"Byt ut en köttmåltid i veckan mot ett vegetariskt alternativ och spara 10 kg CO₂ per månad."
+Usage context:
+A mobile app or a web service.
+The user receives a weekly report and small daily suggestions, for example:
+"Replace one meat-based meal per week with a vegetarian alternative and save 10 kg of CO₂ per month."
 
-Påverkan:
-Användarna själva, deras närmiljö och på längre sikt samhället och klimatet.
+Impact:
+On users themselves, their local environment, and in the long term, society and the climate.
 
 ## Data sources and AI methods
-Datakällor:
+Data sources:
 
-Användarnas egna konsumtionsdata (frivilligt, exempelvis inköp, resor, elförbrukning)
+Users' own consumption data (voluntarily shared, e.g., purchases, travel, electricity use)
 
-Öppna klimatdatabaser (som DEFRA emissions factors)
+Open climate databases (e.g., DEFRA emission factors)
 
-Livscykelanalyser av produkter (t.ex. Ecoinvent)
+Life cycle analyses of products (e.g., Ecoinvent)
 
-AI-tekniker:
+AI techniques:
 
-Maskininlärning (supervised learning): För att förutsäga miljöpåverkan baserat på användarens vanor.
+Supervised machine learning: To predict environmental impact based on user habits.
 
-Rekommendationssystem: För att ge personliga åtgärdsförslag.
+Recommendation systems: To suggest personalized actions.
 
-NLP (Natural Language Processing): Om användaren vill ställa frågor fritt, kan en chatbot svara.
+Natural Language Processing (NLP): To allow users to freely ask questions through a chatbot.
 
-(Demo-idé):
-En första version kan bygga på en enkel regressionsmodell som förutsäger CO₂-utsläpp från inköpsdata.
+(Demo idea):
+An initial version could use a simple regression model to predict CO₂ emissions based on purchasing data.
 
 ## Challenges
 
-Källor och inspiration:
+Limitations:
 
-DEFRA emission factors (offentlig databas)
+Gathering accurate user data can be difficult (privacy, willingness to share).
 
-Carbon Trust och Ecoinvent för livscykeldata
+Not all actions can be quantified precisely.
 
-Inspiration från appar som Olio och Too Good To Go (som främjar hållbarhet lokalt)
-
+Users' motivation levels vary, and some suggestions might be ignored.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Future development:
+
+Integrate with payment apps and receipt-scanning apps for automatic data collection.
+
+Adapt communication style based on user behavior (e.g., more or fewer reminders depending on personality).
+
+Introduce a "Green Score" feature that could be shared on job applications, social networks, etc. (with user consent).
 
 
 ## Acknowledgments
 
-* DEFRA emission factors (offentlig databas)
+Sources and inspirations:
 
-* Carbon Trust och Ecoinvent för livscykeldata
+DEFRA emission factors (public database)
 
-* Inspiration från appar som Olio och Too Good To Go (som främjar hållbarhet lokalt)
+Carbon Trust and Ecoinvent for life cycle data
 
+Inspiration from apps like Olio and Too Good To Go (which promote local sustainability)
